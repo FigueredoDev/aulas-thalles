@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class ConnectSQL {
-    // Para uso com Postgres, faça somente a alteração dos campos url, user e password.
+    // Para uso com Postgres ou Mariadb, faça somente a alteração dos campos url, user e password.
     // Postgres: url = jdbc:postgresql://localhost:3306/clients
     // MySQL: url = jdbc:mysql://localhost:3306/clients
     // Mariadb: url = jdbc:mysql://localhost:3306/clients
