@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class ConnectMySQL {
+public class ConnectSQL {
     // Para uso com Postgres, faça somente a alteração dos campos url, user e password.
     // Postgres: url = jdbc:postgresql://localhost:3306/clients
     // MySQL: url = jdbc:mysql://localhost:3306/clients
