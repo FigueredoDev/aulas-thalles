@@ -1,5 +1,5 @@
 
-public class UserPessoa {
+public class UserPerson {
     String name;
     String last_name;
     String email;
@@ -40,10 +40,10 @@ public class UserPessoa {
     public static void main(String[] args) {
 
         try {
-            UserPessoa pessoa1 = new UserPessoa();
+            UserPerson person1 = new UserPerson();
 
-            pessoa1.setName("Jhonata Figueredo");
-            System.out.println(String.format("Ola, me chamo %s", pessoa1.getName()));
+            person1.setName("Jhonata Figueredo");
+            System.out.println(String.format("Ola, me chamo %s", person1.getName()));
           
         } catch (Exception ex) {
             System.out.println("Ocorreu um erro ao inicializar a classe, verifique novamente!");
